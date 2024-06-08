@@ -1,0 +1,11 @@
+.header {
+    background-color: #2a3757;
+    color: white;
+    height: 87px;
+}
+
+.headerLink{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}

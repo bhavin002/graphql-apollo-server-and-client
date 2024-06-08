@@ -1,0 +1,45 @@
+query getAllUser{
+  users{
+    id
+    fname
+    lname
+    email
+  }
+}
+
+query getAllQuotes{
+  quotes{
+    title
+    desc
+  }
+}
+
+
+query getAllUserWithQuote{
+  users{
+    fname
+    lname
+    quotes{
+      title
+      desc
+    }
+  }
+}
+
+query getUserById($userID:ID!){
+  user(id:$userID){
+    fname
+    lname
+    quotes{
+      title
+      desc
+    }
+  }
+}
+
+query getQuoteByAuthor($author:ID!){
+  quote(author:$author){
+    title
+    desc
+  }
+}

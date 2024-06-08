@@ -1,0 +1,29 @@
+* GraphQl
+
+Solve Below Problem
+
+=> over Fetching
+=> Under Fetching
+
+in GraphQl we can not create get,delete,put and etc... only we create post for any operation
+
+*Query =>  to get the data (get data from database and send to client)
+
+*mutation => to post/update/post (add,update,delete data)
+
+*Resolver => has logic to handle query or mutation operation (impliment logic of query and mutation)
+
+*input types => use with mutation (use for write accurate mutation code)
+
+*aliases => we set aliases for give custome name to any field
+
+*apollo client => use in client side (it is cache the result that means one api call in any page when we again return that page don't call api again because of cache the result)
+
+*apollo server => use in server side (way to serve GraphQl to nodejs)
+
+*express-apollo-server => use when we use GraphQl and also make rest api when we use this npm
+
+*when we start localhost:4000 so default use blackBox for check query but we use npm i apollo-server-core for playground
+
+
+
